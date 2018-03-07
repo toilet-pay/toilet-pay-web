@@ -49,8 +49,16 @@ button, .button, input[type="submit"] {
     margin-right: 4px;
   }
 
+  img {
+    vertical-align: middle;
+    padding-right: 7px;
+    height: 30px;
+  }
+
 }
 
 @import "about";
 @import "boxes";
 @import "personal-web";
+
+
