@@ -111,9 +111,15 @@ gulp.task('deploy', (done) => {
 
 
     ghpages.publish('dist', {
-        repo: 'https://github.com/jumpingcoders/breakabubble-web'
-    }, () => {
-        console.log(arguments);
+        repo: 'https://github.com/toilet-pay/toilet-pay-web'
+    }, (err) => {
+
+        if (err) {
+            console.warn(err);
+            throw err;
+        }
+
+        //console.log(arguments);
         done();
     });
 
