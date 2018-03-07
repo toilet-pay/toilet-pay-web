@@ -1,5 +1,15 @@
 {
-  "private": false,
+  "name": "toilet-pay-web",
+  "version": "0.1.0",
+  "description": "To'Let you use our toilet.",
+  "author": "Pavol Hejný",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toilet-pay/toilet-pay-web"
+  },
+
+
+
   "homepage": "https://www.toiletpay.co/",
   "engines": {
     "node": "6.10.2"
