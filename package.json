@@ -7,10 +7,15 @@
     "type": "git",
     "url": "https://github.com/toilet-pay/toilet-pay-web"
   },
-
-
-
-  "homepage": "https://www.toiletpay.co/",
+  "scripts": {
+    "start": "develop",
+    "build": "gulp build",
+    "develop": "gulp develop",
+    "deploy": "gh-pages -d dist",
+    "prettier": "prettier --config .prettierrc --write \"src/**/*.{js,ts,tsx,js,scss,jade}\" webpack.config.js",
+    "prettier-watch": "onchange --initial \"**/*.{js,ts,tsx,json,scss,jade}\" -- npm run prettier"
+  },
+  "homepage": "https://www.nearbytoilets.com/",
   "engines": {
     "node": "6.10.2"
   },
@@ -38,12 +43,8 @@
     "webpack-stream": "^3.2.0"
   },
   "devDependencies": {
-    "gh-pages": "^1.1.0"
-  },
-  "scripts": {
-    "start": "develop",
-    "build": "gulp build",
-    "develop": "gulp develop",
-    "deploy": "gh-pages -d dist"
+    "gh-pages": "^1.1.0",
+    "prettier": "^1.12.1",
+    "onchange": "^5.0.2"
   }
 }
