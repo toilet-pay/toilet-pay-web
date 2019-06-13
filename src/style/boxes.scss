@@ -1,69 +1,64 @@
 .box {
+    //width: 100%;
 
-  //width: 100%;
+    margin: 0;
+    padding: 30px;
 
-  margin: 0;
-  padding: 30px;
+    h2 {
+        margin: 5px;
+        margin-bottom: 20px;
+        font-size: 1.4rem;
 
-  h2 {
-    margin: 5px;
-    margin-bottom: 20px;
-    font-size: 1.4rem;
-
-    .subtitle {
-      font-size: 1rem;
-    }
-  }
-
-  a.logo, a.logobubble {
-    display: inline-block;
-    font-size: 30px;
-
-    margin: 5px;
-
-    img {
-      width: 50px;
-      height: 50px;
-
+        .subtitle {
+            font-size: 1rem;
+        }
     }
 
-    &:hover {
-      img {
-        transform: scale(1.1, 1.1);
-      }
-    }
+    a.logo,
+    a.logobubble {
+        display: inline-block;
+        font-size: 30px;
 
-  }
-  a.logobubble {
-    img {
-      border-radius: 50px;
-    }
-  }
+        margin: 5px;
 
+        img {
+            width: 50px;
+            height: 50px;
+        }
+
+        &:hover {
+            img {
+                transform: scale(1.1, 1.1);
+            }
+        }
+    }
+    a.logobubble {
+        img {
+            border-radius: 50px;
+        }
+    }
 }
 
 .contacts {
-  background-color: rgba(0, 0, 0, 0.78);
+    background-color: rgba(0, 0, 0, 0.78);
 }
 
 .events {
-  background-color: rgba(40, 59, 64, 0.78);
+    background-color: rgba(40, 59, 64, 0.78);
 
-  ul {
-    margin: 10px;
-    padding: 0;
-    li {
-      list-style: none;
-      b {
-        padding: 8px;
-        //background-color: rgba(255, 255, 255, 0.22);
-      }
+    ul {
+        margin: 10px;
+        padding: 0;
+        li {
+            list-style: none;
+            b {
+                padding: 8px;
+                //background-color: rgba(255, 255, 255, 0.22);
+            }
+        }
     }
-
-  }
-
 }
 
 .authors {
-  background-color: rgba(0, 0, 0, 0.78);
+    background-color: rgba(0, 0, 0, 0.78);
 }
